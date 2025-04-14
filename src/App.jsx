@@ -36,9 +36,6 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      {/* {isLoading && <p>Loading...</p>}
-      {!isLoading && <p>Fetched {cities.length} cities.</p>}*/}
-      {/* Example Usage */}
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="product" element={<Product />} />
